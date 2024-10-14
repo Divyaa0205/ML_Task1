@@ -10,9 +10,9 @@ def winning_cases(user_choice, computer_choice):
     if computer_choice == user_choice:
         return "Draw"
     elif(user_choice, computer_choice) in win_cases:
-        return f"Computer Choice:{computer_choice}\nUser Wins!"
+        return f"Computer Choice: {computer_choice}\nUser Wins!"
     else:
-        return f"Computer Choice:{computer_choice}\nComputer Wins!"
+        return f"Computer Choice: {computer_choice}\nComputer Wins!"
 
 
 def play_game():
