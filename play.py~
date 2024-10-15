@@ -28,8 +28,7 @@ def play_game():
         
         print("\nWant to play again?(yes/no)")
         retry = input().lower()
-        if retry == "no":
-            print("Thanks for playing.")
+        if retry != Yes:
             break
 play_game()
 
